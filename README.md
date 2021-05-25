@@ -6,8 +6,8 @@ You can visit the live version here: <br> http://your-shopcart.herokuapp.com/
 <br>
 <h3>Paypal account details for checkout</h3>
 <br>
-email: sb-lvhsa3686425@personal.example.com
+<strong>Email</strong> : sb-lvhsa3686425@personal.example.com
 <br>
-password: Bxa@*3Mq
+<strong>Password</strong>: Bxa@*3Mq
 <h2>*Server Side Routes*</h2>
 Will be updated soon! :D
