@@ -1,0 +1,12 @@
+{
+    "notebook.kernelProviderAssociations": [
+    
+    ],
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+           "javascript": "javascriptreact"
+        }
+}

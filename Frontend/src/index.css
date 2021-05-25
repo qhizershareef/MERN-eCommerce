@@ -1,0 +1,102 @@
+main {
+    min-height: 82vh;
+  }
+strong { font-weight: bold; }
+h3{
+    padding: 1rem 0;
+}
+
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+.rating span{
+    margin: 0.1rem;
+}
+
+.reviews_Container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.ReviewContainer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: palegreen; */
+}
+
+.ReviewContainer > .image_Col{
+    padding-top: 5px;
+    flex: 1 1 1;
+}
+.ReviewContainer > .comment_Col{
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: azure; */
+    flex: 3 2 1;
+    margin-top:6px;
+    margin-left: 15px;
+}
+
+.comment_Col > .review_Name{
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+    align-items: center;
+}
+.review_Name > p{
+    color:gray;
+    padding-left: 3%;
+    font-size: 0.5 rem;
+    margin-top: 4px;
+}
+.comment_Col> .name_Rating{
+    margin-top: -5px;
+}
+.comment_Col > .comment{
+    font-size: 0.9rem;
+    color:rgb(34, 34, 34)
+}
+
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 400px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+  .carousel img {
+    height: 250px;
+  }
+}
