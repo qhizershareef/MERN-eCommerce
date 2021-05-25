@@ -2,6 +2,7 @@
 A custom eCommerce application built using react, redux, express, node.js and other libraries. <br>
 You can visit the live version here: <br> http://your-shopcart.herokuapp.com/
 
+Update your environment variables with mongoDB uri, json secret, and of course if you're willing to connect paypal, add paypal client id before running in development mode.
 
 <br>
 <h3>Paypal account details for checkout</h3>
